@@ -52,7 +52,7 @@ if (isset($_POST["submit"])) { // if the input that has the type submit has a va
         <div class="row mb-3">
             <label for="inputDescription" class="col-sm-2 col-form-label">Description</label>
             <div class="col-sm-10">
-                <input type="input" class="form-control" id="inputDescription" name="description">
+                <textarea class="form-control" id="inputDescription" name="description"></textarea>
             </div>
         </div>
 
